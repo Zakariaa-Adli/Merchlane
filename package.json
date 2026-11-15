@@ -1,15 +1,23 @@
 {
-  "name": "01-hello-react",
-  "version": "0.1.0",
+  "name": "merchlane",
+  "version": "1.0.0",
   "private": true,
+  "description": "A clean React product catalog that showcases items from the Fake Store API.",
   "dependencies": {
+    "@redux-devtools/extension": "^4.0.0",
+    "@reduxjs/toolkit": "^2.13.0",
     "@testing-library/dom": "^10.4.2",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.3",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.21.0",
+    "bootstrap": "^5.3.9",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
+    "react-redux": "^9.3.1",
+    "react-router-dom": "^7.18.5",
     "react-scripts": "5.0.1",
+    "redux": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
